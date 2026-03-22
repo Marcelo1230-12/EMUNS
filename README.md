@@ -12,7 +12,8 @@ NUM3;// the value of this is 2
 };
 
 int  main() {
-    enum Number today = NUM3;
+ 
+		enum Number today = NUM3;
     printf("%d\n", today);
     return 0;
 }
@@ -21,15 +22,20 @@ the out put will be 2 bc the the number is assigned by default
 but we can also define the values bt own numbers so by this we can avoid to get a imaginary number
 ex
 enum Number{
+
 NUM1=21;// the value of this is 21
+
 NUM2=11;// the value of this is 11
+
 NUM3=44;// the value of this is 44
 };
 
-int  main() {
-    enum Number today = NUM1;
+nt  main() {
+
+		enum Number today = NUM1;
     printf("%d\n", today);
     return 0;
+
 }
 the out put will be the number that we assigned so it be 21
 
@@ -41,8 +47,10 @@ is better to use when we want to set a state in the code like STATE, ALIVE OR DE
 
 ex
 typedef enum {
-    OFF, // 0 value
+ 
+		OFF, // 0 value
     ON //1 value
-} Switch;
+}Switch;
+
 Switch s = ON;
 ===============
